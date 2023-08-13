@@ -24,7 +24,9 @@ env:
 
 jobs:
   build:
-
+    env:
+      KNXD_VERSION: "0.14.59"
+      KNXD_REF: "0.14.59"
     runs-on: ubuntu-latest
     permissions:
       contents: read
